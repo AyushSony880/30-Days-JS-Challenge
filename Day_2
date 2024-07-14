@@ -1,0 +1,80 @@
+
+//Activity 1
+
+const val_1 = 4;
+const val_2 = 5;
+
+const sum = val_1 + val_2;
+console.log(sum);
+
+const val_3 = 10;
+const val_4 = 5;
+const Subst = val_3 - val_4;
+console.log(Subst);
+
+const val_5 = 3;
+const val_6 = 7;
+const mult = val_5 * val_6;
+console.log(mult);
+
+const val_7 = 22;
+const val_8 = 7;
+const divide = val_7 / val_8;
+console.log(divide);
+
+const val_9 = 22;
+const val_10 = 7;
+const remainder = val_9 % val_10;
+console.log(remainder);
+
+//Activity 2
+
+let val_11 = 10;
+console.log(val_11);
+
+val_11 += 5;
+console.log(val_11);
+
+let val_12 = 20;
+console.log(val_12);
+
+val_12 -= 7;
+console.log(val_12);
+
+// Activity 3
+
+console.log("13>11 = ", 10 > 11);
+console.log("13<11 = ", 10 < 11);
+console.log("13>=11 = ", 10 >= 11);
+console.log("13<=11 = ", 10 <= 11);
+console.log("'10'==10 = ", "10" == 10);
+console.log("'10'===10 = ", "10" === 10);
+
+// Activity 4
+
+let val_13 = 20;
+let val_14 = 40;
+
+val_13 <= val_14 && val_14 % val_13 == 0
+  ? console.log("Both condition is true")
+  : console.log("condition is false");
+
+val_13 = 45;
+
+val_13 <= val_14 || val_14 % val_13 == 0
+  ? console.log("condition is true")
+  : console.log("Both condition is false");
+
+val_13 = 10;
+
+!(val_14 % val_13 == 0)
+  ? console.log("condition is true")
+  : console.log("condition is false");
+
+// Activity 5
+
+const val_15 = -10;
+
+val_15 >= 0
+  ? console.log(`${val_15} is positive no.`)
+  : console.log(`${val_15} is negative no.`);
