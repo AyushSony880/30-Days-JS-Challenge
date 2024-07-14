@@ -1,0 +1,40 @@
+// Activity 1
+var data1 = 45;
+console.log(data1);
+
+let data2 = "hello world";
+console.log(data2);
+
+// Activity 2
+const data3 = true;
+console.log(data3);
+
+// Activity 3
+const num = 1;
+const str = "hello";
+const bool = false;
+const obj = {
+  name: "Ayush",
+  age: 20,
+};
+const Arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+console.log("num = " + typeof num);
+console.log("str = " + typeof str);
+console.log("bool = " + typeof bool);
+console.log("obj = " + typeof obj);
+console.log("Arr = " + typeof Arr);
+
+// Activity 4
+
+let val = "Hello";
+console.log("initially val = " + val);
+
+val = "Hello world";
+console.log("After reassign val = " + val);
+
+// Activity 5
+const val2 = 5;
+console.log(val2);
+
+val2 = 10; // this will throw an error that is TypeError :  Assignment to constant variable
