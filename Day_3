@@ -1,0 +1,120 @@
+// Activity 1
+
+const val_1 = 5;
+
+if (val_1 > 0) console.log(`${val_1} is positive no.`);
+else if (val_1 < 0) console.log(`${val_1} is negative no.`);
+else console.log(`${val_1} is zero`);
+
+const age = 18;
+
+if (age >= 18) console.log("You are eligible to vote");
+else console.log("You are not eligible to vote");
+
+// Activity 2
+
+const num_1 = 50;
+const num_2 = 40;
+const num_3 = 1;
+
+if (num_1 > num_2) {
+  if (num_1 > num_3) {
+    console.log(`${num_1} is greater no.`);
+  } else {
+    console.log(`${num_3} is greater no.`);
+  }
+} else {
+  if (num_2 > num_3) {
+    console.log(`${num_2} is greater no.`);
+  } else {
+    console.log(`${num_3} is greater no.`);
+  }
+}
+
+// Activity 3
+
+const DaysNumber = 7;
+
+switch (DaysNumber) {
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wednesday");
+    break;
+  case 4:
+    console.log("Thursday");
+    break;
+  case 5:
+    console.log("Friday");
+    break;
+  case 6:
+    console.log("Saturday");
+    break;
+  case 7:
+    console.log("Sunday");
+    break;
+
+  default:
+    console.log("Wrong Choice");
+    break;
+}
+
+
+let TotalMarks = 80;
+
+TotalMarks = (TotalMarks / 500) * 100;
+console.log(TotalMarks);
+switch (true) {
+  case TotalMarks < 40:
+    console.log("Grade F");
+    break;
+  case TotalMarks >= 40 && TotalMarks < 50:
+    console.log("Grade E");
+    break;
+  case TotalMarks >= 50 && TotalMarks < 60:
+    console.log("Grade D");
+    break;
+  case TotalMarks >= 60 && TotalMarks < 70:
+    console.log("Grade C");
+    break;
+  case TotalMarks >= 70 && TotalMarks < 80:
+    console.log("Grade B");
+    break;
+  case TotalMarks >= 80 && TotalMarks <= 100:
+    console.log("Grade A");
+    break;
+
+  default:
+    console.log("Wrong Choice");
+    break;
+}
+
+// Activity 4
+
+const number = 14;
+
+number % 2 === 0
+  ? console.log(`${number} is even`)
+  : console.log(`${number} is odd`);
+
+// Activity 5
+
+const year = 2024;
+
+if (year % 4 === 0) {
+  if (year % 100 === 0) {
+    if (year % 400 === 0) {
+      console.log(`${year} is leap year`);
+    } else {
+      console.log(`${year} is not leap year`);
+    }
+  } else {
+    console.log(`${year} is leap year`);
+  }
+} else {
+  console.log(`${year} is not leap year`);
+}
