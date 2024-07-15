@@ -1,21 +1,19 @@
-// Activity 1
-
-const val_1 = 5;
+const val_1 = parseInt(prompt("Please enter number"));
 
 if (val_1 > 0) console.log(`${val_1} is positive no.`);
 else if (val_1 < 0) console.log(`${val_1} is negative no.`);
 else console.log(`${val_1} is zero`);
 
-const age = 18;
+const age = parseInt(prompt("Please enter age "));
 
 if (age >= 18) console.log("You are eligible to vote");
 else console.log("You are not eligible to vote");
 
 // Activity 2
 
-const num_1 = 50;
-const num_2 = 40;
-const num_3 = 1;
+const num_1 = parseInt(prompt("Please enter 1st number "));
+const num_2 = parseInt(prompt("Please enter 2nd number "));
+const num_3 = parseInt(prompt("Please enter 3rd number "));
 
 if (num_1 > num_2) {
   if (num_1 > num_3) {
@@ -33,7 +31,7 @@ if (num_1 > num_2) {
 
 // Activity 3
 
-const DaysNumber = 7;
+const DaysNumber = parseInt(prompt("Please enter 1 to 7 "));
 
 switch (DaysNumber) {
   case 1:
@@ -63,8 +61,7 @@ switch (DaysNumber) {
     break;
 }
 
-
-let TotalMarks = 80;
+let TotalMarks = parseInt(prompt("Please enter Total Marks "));
 
 TotalMarks = (TotalMarks / 500) * 100;
 console.log(TotalMarks);
@@ -95,7 +92,7 @@ switch (true) {
 
 // Activity 4
 
-const number = 14;
+const number = parseInt(prompt("Please enter number "));
 
 number % 2 === 0
   ? console.log(`${number} is even`)
@@ -103,7 +100,7 @@ number % 2 === 0
 
 // Activity 5
 
-const year = 2024;
+const year = parseInt(prompt("Please enter years"));
 
 if (year % 4 === 0) {
   if (year % 100 === 0) {
