@@ -1,0 +1,91 @@
+//Day-4
+
+// Activity 1
+
+//Task-1
+
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
+
+//Task-2
+for (let i = 1; i <= 10; i++) {
+  console.log(i * 5);
+}
+
+//Activity 2
+
+{
+  //Task-3
+  let len = 1;
+  let sum = 0;
+
+  while (len <= 10) {
+    sum += len;
+    len++;
+  }
+  console.log(sum);
+}
+
+{
+  //Task-4
+  let len = 10;
+
+  while (len) {
+    console.log(len);
+    len--;
+  }
+}
+
+// Activity 3
+{
+  //Task-5
+  let len = 0;
+  do {
+    console.log(len + 1);
+    len++;
+  } while (len < 5);
+}
+
+{
+  //Task-6
+  let num = parseInt(prompt("Enter a number to find factorial"));
+  let factorial = 1;
+
+  do {
+    factorial = factorial * num;
+    num--;
+  } while (num);
+  console.log(`Factorial = `, factorial);
+}
+
+// Activity 4
+{
+  //Task-7
+  for (let i = 0; i < 5; i++) {
+    for (let j = 0; j < i + 1; j++) {
+      console.log("* ");
+    }
+    console.log("");
+  }
+}
+
+// Activity 5
+{
+  //Task-8
+  for (let i = 1; i <= 10; i++) {
+    if (i === 5) {
+      continue;
+    }
+    console.log(i);
+  }
+}
+{
+  //Task-9
+  for (let i = 1; i <= 10; i++) {
+    if (i === 7) {
+      break;
+    }
+    console.log(i);
+  }
+}
