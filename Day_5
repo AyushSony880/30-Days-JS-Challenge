@@ -1,0 +1,73 @@
+
+//Day -5
+
+// Activity 1
+
+{
+  //Task-1
+
+  function EvenOdd(num) {
+    num % 2 === 0 ? console.log("Even") : console.log("Odd");
+  }
+}
+
+{
+  //Task-2
+  function Square(num) {
+    return num * num;
+  }
+}
+
+//Activity 2
+
+{
+  // Task-3
+  function findMax(num1, num2) {
+    num1 > num2
+      ? console.log("Greater no. =", num1)
+      : console.log("Greater no. =", num2);
+  }
+}
+
+{
+  // Task - 4
+  function Concatenate(str1, str2) {
+    // return str1 + str2;
+    return str1.concat(str2);
+  }
+}
+
+// Task - 5
+const sum = (num1, num2) => {
+  return num1 + num2;
+};
+console.log(sum(5, 4));
+
+// Task -6
+const check = (str, letter) => {
+  return str.includes(letter);
+};
+
+//Activity 4
+
+// Task - 7
+function product(num1, num2 = 5) {
+  return num1 * num2;
+}
+
+// Task - 8
+function Greet(name, age = 18) {
+  return `Hello ${name}, you are ${age} years old`;
+}
+
+// Activity 5
+
+// Task - 9
+
+function higherOrderFun(num, fn) {
+  for (let i = 0; i < 5; i++) console.log(fn(num, i));
+}
+function fn(num, i) {
+  return num + i;
+}
+higherOrderFun(5, fn);
