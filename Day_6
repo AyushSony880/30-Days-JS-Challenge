@@ -1,0 +1,74 @@
+
+// Day -6
+
+// Activity 1
+
+//Task-1
+
+const Arr =[1,2,3,4,5]
+console.log(Arr);
+
+//Task-2
+const Arr2 =[1,2,3,4,5]
+console.log("Last= ",Arr2.at(Arr2.length-1),"\nFirst = " ,Arr2.at(0));
+
+// Activity 2
+
+// Task -3
+
+const Arr3 =[1,2,3,4,5]
+Arr3.push(6)
+console.log(Arr3);
+
+// Task - 4
+
+Arr3.pop()
+console.log(Arr3);
+
+// Task - 5
+Arr3.shift()
+console.log(Arr3);
+
+// Task - 6
+Arr3.unshift(1)
+console.log(Arr3);
+
+// Activity 3 
+
+// Task - 7
+
+const arr4 =[1,2,3,4,5]
+const newArr=arr4.map(num=>num*2)
+console.log(newArr);
+
+// Task - 8
+ const newArr2=arr4.filter(num=>num%2==0)
+ console.log(newArr2);
+
+ // Task - 9
+  const sum=arr4.reduce((acc,cur)=>acc+cur,0)
+  console.log(sum);
+
+  // Activity 4 
+  //Task - 10
+   for(let i=0; i<arr4.length; i++)
+    console.log(arr4[i]);
+
+   // Task-11
+   arr4.forEach(num=>console.log(num));
+
+   // Activity 5
+
+   // Task-12
+
+   const arr5=[[1,2,3],[4,5,6],[7,8,9]]
+
+   for(let i=0; i<arr5.length; i++){
+    for(let j=0; j<arr5[i].length; j++){
+      console.log(arr5[i][j]);
+    }
+   }
+// Task-13
+   function accessElementAt(i,j){
+    console.log(arr5[i][j]);
+   }
